@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient gradientTransform="matrix(-66.74948120117188,133.26193237304688,-133.26193237304688,-66.74948120117188,452.96026611328125,172.60809326171875)" gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0" id="svg_2">
+   <stop stop-color="#23dbf9" offset="0"/>
+   <stop stop-color="#ff64bd" offset="1"/>
+  </linearGradient>
+  <linearGradient gradientTransform="matrix(26.245241165161133,76.20790100097656,-76.20790100097656,26.245241165161133,382.37445068359375,248.70339965820312)" gradientUnits="userSpaceOnUse" y2="0" x2="1" y1="0" x1="0" id="svg_1">
+   <stop stop-color="#23dbf9" offset="0"/>
+   <stop stop-color="#fff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke-width="0">
+   <circle fill="url(#svg_2)" r="118.35" cy="286" cx="396.14365"/>
+   <path fill-rule="nonzero" fill="url(#svg_1)" d="m595.18165,223.405c-5.581,-14.218 -44.691,-13.322 -99.568,-0.326c0.153,0.209 0.283,0.435 0.387,0.672c3.871,10.022 -41.269,36.869 -100.83,59.989c-59.582,23.1 -111.036,33.712 -114.926,23.67l-0.041,-0.2c-50.639,28.355 -81.052,54.958 -75.389,69.441c8.942,22.733 103.56,6.865 211.357,-35.443c107.797,-42.333 187.932,-95.05 179.01,-117.803z"/>
+
+  </g>
+ </g>
+</svg>
