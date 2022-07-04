@@ -73,7 +73,10 @@ const players = [
     name: 'Мілана',
   },
   {
-    name: 'Надя',
+    name: 'Надя 13 років',
+  },
+  {
+    name: 'Надя 9 років',
   },
   {
     name: 'Назар',
@@ -104,7 +107,6 @@ const players = [
 function App() {
   return (
     <div className='App'>
-     
       <Container>
         <Scale name='' />
         <H1>Гравці</H1>
