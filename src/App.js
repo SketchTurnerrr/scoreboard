@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 import styled from 'styled-components';
 import './App.css';
@@ -8,9 +8,6 @@ import { Scale } from './components/Scale';
 const players = [
   {
     name: 'Алла',
-  },
-  {
-    name: 'Ангелина',
   },
   {
     name: 'Аня',
@@ -49,10 +46,13 @@ const players = [
     name: 'Илья',
   },
   {
-    name: 'Имя',
+    name: 'Карина',
   },
   {
-    name: 'Ксюша',
+    name: 'Ксюша 10 років',
+  },
+  {
+    name: 'Ксюша 11 років',
   },
   {
     name: 'Лена',
@@ -73,6 +73,9 @@ const players = [
     name: 'Милана',
   },
   {
+    name: 'Надя',
+  },
+  {
     name: 'Назар',
   },
   {
@@ -85,6 +88,15 @@ const players = [
     name: 'Света',
   },
   {
+    name: 'Эвелина',
+  },
+  {
+    name: 'Юля',
+  },
+  {
+    name: 'Яна',
+  },
+  {
     name: 'Ярослав',
   },
 ];
@@ -92,6 +104,7 @@ const players = [
 function App() {
   return (
     <div className='App'>
+     
       <Container>
         <Scale name='' />
         <H1>Гравці</H1>

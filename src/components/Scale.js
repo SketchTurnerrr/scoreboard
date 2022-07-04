@@ -209,6 +209,7 @@ export function Scale() {
 const Container = styled.div`
   position: sticky;
   top: 15px;
+  z-index:20;
 `;
 
 const Empty = styled.div`
